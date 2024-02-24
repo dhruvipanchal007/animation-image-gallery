@@ -7,5 +7,47 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
+.img-box{
+  width: 50px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 50px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCd-28P_zliOerEja0-vD1B3ACp3NlLhMxK60HrHTsNp-eMhWk72vAdJk7r892WqPdqoI&usqp=CAU"
+  );
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.7s;
+}
+.img-box:nth-child(2){
+  background-image: url("https://media1.popsugar-assets.com/files/thumbor/tQfiGMbkGHZCc46nfLrdl-Jvt-w=/0x0:2366x3000/2366x3000/filters:format_auto():quality(85):extract_cover()/2022/05/13/964/n/1922398/8d541608627ed6fe8aa448.75462369_.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-box:nth-child(3){
+  background-image: url("https://digitalstudyadda.com/wp-content/uploads/2022/06/41a97dhCM1L.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-box:nth-child(4){
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5d/Jennifer_Winget_snapped_promoting_her_web_series_Code_M.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-box:hover{
+  width: 300px;
+}
